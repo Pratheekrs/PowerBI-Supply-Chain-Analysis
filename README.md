@@ -5,8 +5,12 @@ This project is my second Power BI dashboard focused on analyzing supply chain o
 ## Objective
 To analyze supply chain data and identify inefficiencies in inventory management, transportation, and order fulfillment to improve overall operational performance.
 
+## Business Context
+In real-world supply chain systems, inefficiencies in inventory planning, transportation, and demand forecasting can lead to increased costs and delays. This project simulates such scenarios and aims to provide insights that help improve operational efficiency and resource utilization.
+
 ## Dataset
 The dataset used in this project simulates real-world supply chain operations and includes:
+
 - Order and sales data  
 - Product and category details  
 - Inventory levels and stock movement  
@@ -15,7 +19,7 @@ The dataset used in this project simulates real-world supply chain operations an
 - Order status and backorders  
 
 ## Dashboard Preview
-https://github.com/Pratheekrs/PowerBI-Supply-Chain-Analysis/blob/main/dashboard.png
+![Dashboard](dashboard.png)
 
 ## Key KPIs
 - **Warehouse Utilization (%)**  
@@ -25,12 +29,14 @@ https://github.com/Pratheekrs/PowerBI-Supply-Chain-Analysis/blob/main/dashboard.
 
 ## Key Metrics (DAX)
 The following KPIs were created using DAX:
+
 - Inventory Turnover Ratio  
 - Days of Inventory  
 - Warehouse Utilization (%)  
 - Total Sales and Orders  
+- Fill Rate (%) *(Advanced KPI)*  
 
-These metrics help evaluate operational efficiency and inventory performance.
+These metrics help evaluate operational efficiency, demand fulfillment, and inventory performance.
 
 ## Analysis Performed
 
@@ -48,14 +54,19 @@ These metrics help evaluate operational efficiency and inventory performance.
 - Sales trends vary across years, indicating seasonal demand patterns  
 - Warehouse utilization suggests potential for better capacity planning  
 
-## Business Problem
-The objective of this project is to:
-- Identify inefficiencies in inventory management  
-- Reduce transportation costs  
-- Improve order fulfillment rates  
-- Optimize warehouse utilization  
+## Business Challenges Identified
 
-This enables businesses to improve efficiency and reduce operational costs.
+- Inefficient inventory distribution across regions  
+- Increased transportation cost in specific supply routes  
+- Delayed order fulfillment due to stock shortages  
+- Demand variability impacting inventory planning  
+
+## Recommendations
+
+- Optimize inventory allocation based on demand patterns  
+- Improve supplier coordination to reduce lead time  
+- Monitor high-cost regions to reduce transportation expenses  
+- Implement better forecasting techniques for demand planning  
 
 ## Project Workflow
 
